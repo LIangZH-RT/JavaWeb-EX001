@@ -1,0 +1,45 @@
+<%@ page pageEncoding="UTF-8" %>
+<div class="page-shell">
+    <aside class="sidebar">
+        <div class="brand">
+            <div class="brand-name">在线考试系统</div>
+            <div class="brand-sub">
+                <c:choose>
+                    <c:when test="${not empty sessionScope.loginUserName}">
+                        当前用户：<c:out value="${sessionScope.loginUserName}" />
+                    </c:when>
+                    <c:otherwise>JSP 统一页面</c:otherwise>
+                </c:choose>
+            </div>
+        </div>
+
+        <nav class="nav-block">
+            <div class="nav-title">账号管理</div>
+            <a class="nav-link ${pageId eq 'mainpage' ? 'is-active' : ''}" href="${pageContext.request.contextPath}/jsp/mainpage.jsp">账号管理</a>
+            <a class="nav-link ${pageId eq 'login' ? 'is-active' : ''}" href="${pageContext.request.contextPath}/login">用户登录</a>
+            <a class="nav-link ${pageId eq 'register' ? 'is-active' : ''}" href="${pageContext.request.contextPath}/register">用户注册</a>
+            <a class="nav-link ${pageId eq 'users' ? 'is-active' : ''}" href="${pageContext.request.contextPath}/UserSearch">用户查询</a>
+        </nav>
+
+        <nav class="nav-block">
+            <div class="nav-title">题库管理</div>
+            <a class="nav-link ${pageId eq 'question-form' ? 'is-active' : ''}" href="${pageContext.request.contextPath}/question">试题新增</a>
+            <a class="nav-link ${pageId eq 'question-list' ? 'is-active' : ''}" href="${pageContext.request.contextPath}/QMatch">试题查询</a>
+        </nav>
+
+        <nav class="nav-block">
+            <div class="nav-title">考试功能</div>
+            <a class="nav-link ${pageId eq 'exam' ? 'is-active' : ''}" href="${pageContext.request.contextPath}/Exam">参加考试</a>
+            <a class="nav-link ${pageId eq 'home' ? 'is-active' : ''}" href="${pageContext.request.contextPath}/index.jsp">首页入口</a>
+            <c:if test="${not empty sessionScope.loginUserName}">
+                <a class="nav-link" href="${pageContext.request.contextPath}/logout">退出登录</a>
+            </c:if>
+        </nav>
+    </aside>
+
+    <main class="main-panel">
+        <div class="page-heading">
+            <div class="eyebrow">JSP</div>
+            <h1><c:out value="${pageTitle}" /></h1>
+        </div>
+        <div class="page-body">

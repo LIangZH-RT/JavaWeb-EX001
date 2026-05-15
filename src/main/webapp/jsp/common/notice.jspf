@@ -1,0 +1,5 @@
+<c:if test="${not empty message}">
+    <div class="notice ${status eq 'success' ? 'success' : 'error'}">
+        <c:out value="${message}" />
+    </div>
+</c:if>
