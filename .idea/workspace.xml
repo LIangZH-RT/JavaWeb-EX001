@@ -9,7 +9,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2b788750-c003-46e6-8cfb-96edd259ad45" name="更改" comment="AI-Change 5.14 LAST COMMIT" />
+    <list default="true" id="2b788750-c003-46e6-8cfb-96edd259ad45" name="更改" comment="AI-Change 5.15" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,6 +31,7 @@
     </excluded-from-favorite>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
+        <entry key="$PROJECT_DIR$" value="main" />
         <entry key="$PROJECT_DIR$/W1" value="master" />
       </map>
     </option>
@@ -43,12 +44,12 @@
     &quot;assignee&quot;: &quot;LIangZH-RT&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/LIangZH-RT/JavaWeb-w-001.git&quot;,
-    &quot;accountId&quot;: &quot;72914efd-e671-4fe3-b192-0af52cf0a481&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "git@github.com:LIangZH-RT/JavaWeb-EX001.git",
+    "accountId": "72914efd-e671-4fe3-b192-0af52cf0a481"
   }
-}</component>
+}]]></component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
     <option name="FILTER_WARNINGS" value="false" />
@@ -78,7 +79,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Tomcat 服务器.Tomcat 10.1.54.executor": "Run",
     "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "AI-COMMIT",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "D:/Code/JavaWeb/ClassWork001",
@@ -224,6 +225,7 @@
       <workItem from="1778763773727" duration="175000" />
       <workItem from="1778805032244" duration="1858000" />
       <workItem from="1778811268302" duration="3252000" />
+      <workItem from="1778814769442" duration="349000" />
     </task>
     <task id="LOCAL-00001" summary="未添加filter">
       <option name="closed" value="true" />
@@ -249,7 +251,15 @@
       <option name="project" value="LOCAL" />
       <updated>1778763876762</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="AI-Change 5.15">
+      <option name="closed" value="true" />
+      <created>1778814979221</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1778814979221</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -271,7 +281,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="AI-feature" />
+                        <option value="AI-COMMIT" />
                       </list>
                     </value>
                   </entry>
@@ -288,6 +298,7 @@
     <MESSAGE value="未添加filter 5.11" />
     <MESSAGE value="AI-Change -v1 5.11" />
     <MESSAGE value="AI-Change 5.14 LAST COMMIT" />
-    <option name="LAST_COMMIT_MESSAGE" value="AI-Change 5.14 LAST COMMIT" />
+    <MESSAGE value="AI-Change 5.15" />
+    <option name="LAST_COMMIT_MESSAGE" value="AI-Change 5.15" />
   </component>
 </project>
